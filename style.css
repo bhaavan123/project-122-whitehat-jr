@@ -1,0 +1,24 @@
+body
+{
+	text-align: center;
+    font-family:  'Dongle', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: yellow;
+}
+span
+{
+	font-size: 18px;
+	color: orangered;
+}
+canvas
+{
+	background: white;
+	animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{border: 3px red dotted; border-radius:0px;}
+    to{border: 8px rgb(255, 0, 200) dotted; border-radius:20px;}
+}
